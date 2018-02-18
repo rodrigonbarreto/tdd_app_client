@@ -39,6 +39,9 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.7'
   gem 'capybara'
   gem 'spring-commands-rspec'
+  #selenium -> some hint in https://mikecoutermarsh.com/rails-capybara-selenium-chrome-driver-setup/
+  gem 'selenium-webdriver'
+  gem 'chromedriver-helper'
 end
 
 group :development do
